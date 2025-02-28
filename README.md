@@ -1,4 +1,5 @@
 # EXAMEN UML-ER
+
     Base de datos para un concesionario de vehículos que gestione la información sobre los vehículos en stock, clientes, ventas, y servicios de mantenimiento. La base de datos debe permitir registrar y gestionar vehículos, vendedores, clientes, transacciones de ventas y servicios realizados. Los estudiantes deben crear un diagrama UML E-R que represente la estructura de la base de datos y entregar una documentación detallada que explique las decisiones de diseño, las relaciones entre las tablas y las restricciones impuestas.
     
 ## Entidades y atributos
@@ -66,11 +67,11 @@
     -Ventas - Vendedores: Un vendedor puede realizar muchas ventas (relación de N a 1).
     -Mantenimiento - DetalleMovimiento: Un mantenimiento está asociado a un detalle de movimiento específico (relación de N a 1).
     -DetalleMovimiento - Servicios: Un detalle de movimiento puede tener muchos servicios relacionados (relación de N a 1).
-    -Se deb mantener la disponibilidad actualizada de los vehiculos en un inventario
+    -Se debe mantener la disponibilidad actualizada de los vehiculos en un inventario
 
 ## Diagrama UML E-R
 
-    ![alt text](images/image.png)
+![alt text](images/image.png)
 
 
 
